@@ -2,8 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+  font-family: 'Bodoni Moda', serif;
+  text-align: center;
 }
 
+.bodoni-moda{
+  font-family: "Bodoni Moda";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 .app{
-  background-image: url('/kaboompics_valentines-red-heart-16271.jpg');
+  background-image: url('./background-image.png');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-size: 50px;
+  font-style: italic;
+}
+
+p{
+
 }
