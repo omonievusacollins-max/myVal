@@ -5,6 +5,7 @@
   color: white;
   font-family: 'Bodoni Moda', serif;
   text-align: center;
+  font-style: italic;
 }
 
 .bodoni-moda{
@@ -21,9 +22,23 @@
   width: 100vw;
   height: 100vh;
   font-size: 50px;
-  font-style: italic;
 }
 
-p{
+.btn{
+  background-color: #C30020;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 100px;
+  width: 150px;
+  height: 60px;
+}
 
+.first-screen{
+  /* border: 1px solid red; */
+  height: 60vh;
+  position: absolute;
+  bottom: 0;
 }
