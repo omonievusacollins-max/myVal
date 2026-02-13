@@ -1,3 +1,8 @@
+let answer = "";
+while(answer !== 'sirr'){
+  answer = prompt('my agogo 🙃')
+}
+
 const noButton = document.getElementById('no');
 const buttons = document.querySelector('.buttons');
 const yesBtn = document.getElementById("yes");
