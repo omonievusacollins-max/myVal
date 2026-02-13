@@ -23,6 +23,7 @@ const seeSurpriseButton = document.getElementById('see-surprise');
 // YES button
 yesBtn.addEventListener("click", () => {
   alert("Yayyy ❤️ I love you so much!");
+  window.close(); // Close the window after clicking "Yes"
 });
 
 const firstScreen = document.querySelector(".first-screen");
