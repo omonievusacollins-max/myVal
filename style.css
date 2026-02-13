@@ -19,7 +19,7 @@
 .app{
   background-image: url('./background-image.png');
   background-size: cover;
-  width: 100vw;
+  width: 95vw;
   height: 100vh;
   font-size: 50px;
 }
@@ -56,7 +56,8 @@
 }
 
 .message-container {
-  width: 93vw;
+  width: 90vw;
+  height: 300px;
   margin: auto;
   overflow-x: auto;
   overflow-y: hidden;
@@ -78,7 +79,7 @@
   display: flex;
   gap: 20px;
   width: 90%;
-  border: 2px dashed red;
+  /* border: 2px dashed red; */
 }
 
 .message-item {
@@ -88,12 +89,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .message-item:last-child{
   margin-right: 20px;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .button{
